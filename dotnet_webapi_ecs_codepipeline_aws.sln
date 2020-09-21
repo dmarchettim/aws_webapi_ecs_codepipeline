@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet_webapi_ecs_codepipeline_aws", "dotnet_webapi_ecs_codepipeline_aws\dotnet_webapi_ecs_codepipeline_aws.csproj", "{4C7F12F8-DBEF-4C0B-8889-DAD0AA842B47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C7F12F8-DBEF-4C0B-8889-DAD0AA842B47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C7F12F8-DBEF-4C0B-8889-DAD0AA842B47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C7F12F8-DBEF-4C0B-8889-DAD0AA842B47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C7F12F8-DBEF-4C0B-8889-DAD0AA842B47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B4541FD-27CA-481C-88DB-4C9599189EEF}
+	EndGlobalSection
+EndGlobal
