@@ -26,6 +26,6 @@ phases:
       - printf '{"ImageURI":"328066530950.dkr.ecr.sa-east-1.amazonaws.com/dotnetcoreecswebapi-codepipeline:latest"}' > imageDetail.json
 artifacts:
     files: 
-    - imagedefinition.json
-    - imageDetail.json
-    - appspec.yml
+        - imagedefinition.json
+        - imageDetail.json
+        - appspec.yml
