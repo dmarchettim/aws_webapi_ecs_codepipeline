@@ -21,10 +21,8 @@ phases:
       - docker push $REPOSITORY_URI:latest
       - docker push $REPOSITORY_URI:$IMAGE_TAG
       - echo Writing definitions file...
-      - printf '[{"name":"netcore-api","imageUri":"328066530950.dkr.ecr.sa-east-1.amazonaws.com/dotnetcoreecswebapi-codepipeline:latest"}]' > imagedefinition.json
-      - printf '[{"ImageURI":"328066530950.dkr.ecr.sa-east-1.amazonaws.com/dotnetcoreecswebapi-codepipeline:latest"}]' > imageDetail.json
+      - printf '[{"name":"netcore-api","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG > imagedefinition.json
 artifacts:
     files: 
         - imagedefinition.json
-        - imageDetail.json
         - appspec.yml
