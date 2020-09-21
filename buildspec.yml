@@ -24,4 +24,6 @@ phases:
       - echo Writing definitions file...
       - printf '[{"name":"project-container","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG > taskdefinition.json
 artifacts:
-    files: imagedefinition.json
+    files: 
+    - imagedefinition.json
+    - appspec.yml
