@@ -13,7 +13,7 @@ namespace dotnet_webapi_ecs_codepipeline_aws.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
-            "Diego", "Marchetti", "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+            "Diego", "Marchetti", "Alterando", "API", "Chilly", "Cool", "Mild"
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
